@@ -37,7 +37,7 @@ Works for any product — food, fashion, cosmetics, electronics, home goods. Not
 2. Open [claude.ai](https://claude.ai) on desktop
 3. Go to **Settings → Customize → Skills**
 4. Click **+** then **Create skill**
-5. Upload the ZIP file
+5. Upload the SKILL.md file
 6. Toggle the skill on
 
 Requires a Claude Pro, Max, Team, or Enterprise plan with Code Execution enabled.
