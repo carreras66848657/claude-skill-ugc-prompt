@@ -21,6 +21,16 @@ Works for any product — food, fashion, cosmetics, electronics, home goods. Not
 
 ---
 
+## Who This Is NOT For
+
+**This skill is not for you if:**
+- You want cinematic, non-handheld commercial-style videos → use [claude-skill-cinematic-prompt](https://github.com/msk3d0ut/claude-skill-cinematic-prompt) instead
+- You need videos longer than 15 seconds in one clip — Higgsfield's max per generation is 15s
+- You want the AI to write the prompt in Arabic — prompts are English only (dialogue inside the video can be any language)
+- You're using a free Higgsfield plan — Marketing Studio requires a paid plan
+
+---
+
 ## Installation
 
 1. Download `claude-skill-ugc-prompt.zip` from [Releases](https://github.com/msk3d0ut/claude-skill-ugc-prompt/releases)
